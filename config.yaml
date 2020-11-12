@@ -1,0 +1,48 @@
+baseurl: "https://olymvis.netlify.app/"
+languageCode: "en-us"
+title: "A minimal Hugo website"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  note: "/note/:year/:month/:day/:slug/"
+  post: "/post/:year/:month/:day/:slug/"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: Motivation
+      url: "motivation/"
+      weight: 2
+    - name: Literature
+      url: "literature/"
+      weight: 3
+    - name: Plans
+      url: "plans/"
+      weight: 4
+    - name: Vis 1
+      url: "vis1/"
+      weight: 5
+    - name: Vis 2
+      url: "vis2/"
+      weight: 6
+    - name: Vis 3
+      url: "vis3/"
+      weight: 7
+    - name: Recap
+      url: "recap/"
+      weight: 8
+
+params:
+  description: "Visualizing 120 years of Summer Olympics"
+  footer: "&copy; [Hongtao Hao](https://hongtaoh.com) & [Chris Fang](https://github.com/zihfang/), 2020 | [Github](https://github.com/hongtaoh/olymvis)"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
