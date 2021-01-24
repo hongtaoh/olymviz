@@ -6,6 +6,19 @@
 </div>
 
 <main>
+
+<span>
+        	{{ if .IsPage}} 
+            {{ if .File.Path}}
+            {{ $.Scratch.Set "FilePath" .File.Path }}
+            {{ end }}
+            {{ with .Site.Params.GithubEdit}}
+            <a href='{{ . }}{{ $.Scratch.Get "FilePath" }}' class="btn">Edit this page on GitHub</a>
+            {{ end }}
+            {{ end }}
+</span>
+
+
 {{ .Content }}
 </main>
 

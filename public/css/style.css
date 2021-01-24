@@ -117,3 +117,22 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+/*"Edit this page" button style*/
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 16px;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 3px;
+  background-color: skyblue; /*rgba(174, 11, 42, 0.75)*/;
+  border: 1px solid transparent;
+  color: black;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: orange/*rgb(174, 11, 42)*/;
+}

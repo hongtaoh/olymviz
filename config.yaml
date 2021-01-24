@@ -43,6 +43,7 @@ menu:
 
 params:
   description: "Visualizing 120 years of Summer Olympics"
+  GithubEdit: "https://github.com/hongtaoh/olymviz/edit/master/content/"
   footer: "&copy; [Hongtao Hao](https://hongtaoh.com) & [Chris Fang](https://github.com/zihfang/), 2020 | [Github](https://github.com/hongtaoh/olymviz)"
 
 markup:
