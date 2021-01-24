@@ -3,11 +3,11 @@ title: Plans for Visualization
 author: Chris Fang & Hongtao Hao
 ---
 ## Plans: Female Participation
-As discussed above, we will use line graph, stacked bar chart, and area chart to show the overall trend of female participation in the Summer Olympics. For female participation in each individual continent, we will use KDE in a small multiple. 
+As discussed above, we will use a line graph, stacked bar chart, and area chart to show the overall trend of female participation in the Summer Olympics. For female participation in each individual continent, we will use KDE in a small multiple. 
 
-In line graph, the x-axis will be time and the y-axis the percentage against the total number of participants. We will show both female and male athletes. See Figure 12.
+In a line graph, the x-axis will be time and the y-axis the percentage against the total number of participants. We will show both female and male athletes. See Figure 12.
 
-For stacked bar chart, the x-axis will be time and y-axis will percentage against the total number of athletes. Two segments in each bar will represent male and female respectively, and the two will sum up to 100\% for every year presented. This will make the comparison between male and female participation very clear. See Figure 13.
+For stacked bar charts, the x-axis will be time and y-axis percentage against the total number of athletes. Two segments in each bar will represent male and female respectively, and the two will sum up to 100\% for every year presented. This will make the comparison between male and female participation very clear. See Figure 13.
 
 <div class="wide">
 
@@ -42,7 +42,7 @@ For female participation in each individual continent over the years, we will li
 </div>
 
 ## Plans: Home-field Advantage
-To examine whether there exists a home-field advantage at the Olympics, we will first use a scatter plot with jitter. The x-axis will be countries that have ever been a host, and the y-axis will be the percentage against the total number of medals a country earned. Each dot represents an Olympic Games the country has participated. Black dots denote data for a “non-host” year and orange dots denote data for host year. See Figure 16.
+To examine whether there exists a home-field advantage at the Olympics, we will first use a scatter plot with jitter. The x-axis will be countries that have ever been a host, and the y-axis will be the percentage against the total number of medals a country earned. Each dot represents an Olympic Games the country has participated in. Black dots denote data for a “non-host” year and orange dots denote data for host year. See Figure 16.
 
 To better show the density distribution of medal gains, we will employ kernel density estimation in a small multiple. The x-axis will be the percentage against the total number of medals at a Games and the y-axis will be density. We will use an arrow to denote the density of a year when the country was a host. See Figure 17.
 
@@ -71,7 +71,7 @@ The index of “medal efficiency” will be calculated as medal points per athle
 ## Plans: Ranking Sports by Number of Athletes
 First, we will use a bar chart where the x-axis will be the different sports and the y-axis the corresponding number of athletes. See Figure 19. 
 
-Second, we will show this ranking using a word cloud in which larger font size denotes higher number of participants. This graph will be clearer and more direct because viewers can intuitively get a sense of the relative size of participation of a sport. See Figure 20.
+Second, we will show this ranking using a word cloud in which larger font size denotes a higher number of participants. This graph will be clearer and more direct because viewers can intuitively get a sense of the relative size of participation of a sport.  See Figure 20.
 
 <div class="wide">
 

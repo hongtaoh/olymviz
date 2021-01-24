@@ -57,7 +57,7 @@ Quisque mattis volutpat lorem vitae feugiat.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://olymvis.netlify.app/vis1/</guid>
-      <description>var figure23 = vegaEmbed(&#39;#figure24&#39;, figure24);  As planned above, we started with a simple line graph displaying both male and female athletes’ percentage against all athletes. The strength of this method is that it is simple and clear. It shows that female percentage has been steadily growing in the past century at the Olympics. The drawback is that it does not generate a stark contrast between male and female as a stacked bar chart can do.</description>
+      <description>var figure23 = vegaEmbed(&#39;#figure24&#39;, figure24);  As planned above, we started with a simple line graph displaying both male and female athletes’ percentage against all athletes. The strength of this method is that it is simple and clear. It shows that the female percentage has been steadily growing in the past century at the Olympics. The drawback is that it does not generate a stark contrast between male and female as a stacked bar chart can do.</description>
     </item>
     
     <item>
@@ -86,8 +86,8 @@ Quisque mattis volutpat lorem vitae feugiat.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://olymvis.netlify.app/vis3/</guid>
-      <description>Home-field Advantage As discussed above, we first tried scatter plot with jitter. The x-axis is the countries that have ever hosted the Olympics and y-axis denotes the percentage of a medals earned by a country against the total number of medals in that year. Blue dots represent data when the country were not the host and the orange ones for when it was the host. See Figure 29.
-  Figure29: Scatter plot with jittering for home-field advantage   The blue dots were too packed.</description>
+      <description>Home-field Advantage As discussed above, we first tried scatter plot with jitter. The x-axis is the countries that have ever hosted the Olympics and the y-axis denotes the percentage of medals earned by a country against the total number of medals in that year. Blue dots represent data when the country was not the host and the orange ones for when it was the host. See Figure 30.
+  Figure 30: Scatter plot with jittering for home-field advantage   The blue dots were too packed.</description>
     </item>
     
     <item>
@@ -96,7 +96,7 @@ Quisque mattis volutpat lorem vitae feugiat.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://olymvis.netlify.app/literature/</guid>
-      <description>Female Participation in Summer Olympics Many attempts have already been made to visualize female participation in the Olympics. The most basic one (Bmallion, 2015) is using tables to display the information about countries with the highest and lowest percentages of female athletes, and to show female percentage across the 120 years of the Olympics. See Table 1.
+      <description>Female Participation in Summer Olympics Many attempts have already been made to visualize female participation in the Olympics. The most basic one (Bmallion, 2015) is using tables to display the information about countries with the highest and lowest percentages of female athletes, and to show female percentages across the 120 years of the Olympics. See Table 1.
   Table 1(a): Countries with the highest rate of female participation      Table 1(b): Female percentage in Olympic events     This method is simple and informative.</description>
     </item>
     
@@ -115,8 +115,8 @@ Quisque mattis volutpat lorem vitae feugiat.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://olymvis.netlify.app/plans/</guid>
-      <description>Plans: Female Participation As discussed above, we will use line graph, stacked bar chart, and area chart to show the overall trend of female participation in the Summer Olympics. For female participation in each individual continent, we will use KDE in a small multiple.
-In line graph, the x-axis will be time and the y-axis the percentage against the total number of participants. We will show both female and male athletes.</description>
+      <description>Plans: Female Participation As discussed above, we will use a line graph, stacked bar chart, and area chart to show the overall trend of female participation in the Summer Olympics. For female participation in each individual continent, we will use KDE in a small multiple.
+In a line graph, the x-axis will be time and the y-axis the percentage against the total number of participants. We will show both female and male athletes.</description>
     </item>
     
     <item>
@@ -126,8 +126,20 @@ In line graph, the x-axis will be time and the y-axis the percentage against the
       
       <guid>https://olymvis.netlify.app/recap/</guid>
       <description>Research Question Recap This paper answered four major questions:
- How does female participation at the Olympics, both overall and in each continent, change over time? Is there a home-field advantage at the Olympics? What is the medal efficiency for each country and region? Which sports have the highest number of participating athletes at the Olympics?  Major Finding Our visualizations demonstrated that:
-  Both the total number of participating athletes and the percentage of female athletes in the Olympics has been increase.</description>
+ How does female participation at the Olympics, both overall and in each continent, change over time? Is there a home-field advantage at the Olympics? What is the medal efficiency for each country and region? Which sports have the highest number of participating athletes at the Olympics?  Major Findings Our visualizations demonstrated that:
+  Both the total number of participating athletes and the percentage of female athletes in the Olympics has been increasing.</description>
+    </item>
+    
+    <item>
+      <title>References</title>
+      <link>https://olymvis.netlify.app/ref/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olymvis.netlify.app/ref/</guid>
+      <description>Abrams, O. (2019, June 23). Why Female Athletes Earn Less Than Men Across Most Sports. Retrieved from https://www.forbes.com/sites/oliviaabrams/2019/06/23/why-female-athletes-earn-less-than-men-across-most-sports/#646f8eeb40fb.
+Baker, C. N., Seymour, E., &amp;amp;Zimbalist, A. (2019, April 18). Less Money, Less Media: How Female Athletes are Undervalued. Retrieved from https://msmagazine.com/2019/04/18/less-money-less-media-how-female-athletes-are-undervalued/.
+Bian, X. (2005). Predicting Olympic medal counts: The effects of economic development on Olympic performance. The park place economist, 13(1), 37-44.
+Beutler, I. (2008). Sport serving development and peace: Achieving the goals of the United Nations through sport.</description>
     </item>
     
   </channel>

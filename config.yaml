@@ -37,10 +37,13 @@ menu:
     - name: Recap
       url: "recap/"
       weight: 8
+    - name: References
+      url: "ref/"
+      weight: 9
 
 params:
   description: "Visualizing 120 years of Summer Olympics"
-  footer: "&copy; [Hongtao Hao](https://hongtaoh.com) & [Chris Fang](https://github.com/zihfang/), 2020 | [Github](https://github.com/hongtaoh/olymvis)"
+  footer: "&copy; [Hongtao Hao](https://hongtaoh.com) & [Chris Fang](https://github.com/zihfang/), 2020 | [Github](https://github.com/hongtaoh/olymviz)"
 
 markup:
   goldmark:
